@@ -124,7 +124,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -140,3 +140,7 @@ EMAIL_HOST = 'smtp.exmail.com'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'yuezhen.chen@garena.cn'
 EMAIL_HOST_PASSWORD = 'wASVoiWUYdk3SoTM'
+
+#注册有效期天数
+CONFIRM_DAYS = 7
+
